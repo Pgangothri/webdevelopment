@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basics</title>
+    </head>
+    <body>
+        <p id="demo"></p>
+    </body>
+    <script type="text/javascript">
+      /*var x="pay money to the \"chinni\" from bank";*/
+      var fruits=["Apple","banana","kiwi","Grapes","pineApple"];
+      fruits[0]="Orange"
+      fruits.push("Carrot")
+      fruits.pop();
+      fruits.shift();
+fruits.unshift("Carrot");
+delete fruits[2];
+
+        
+        document.getElementById("demo").innerHTML=fruits.join("  ");
+    </script>
+</html>

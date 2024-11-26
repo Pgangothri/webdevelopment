@@ -1,0 +1,103 @@
+<!DOCTYPE.html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> tables creation </title>
+
+       <style>
+         table {border-collapse: none; }
+       
+      </style>
+   
+        <body>
+           
+                <form name="employment" action="send.png" method="post">
+            
+                <table width="50%" border="1" bordercolor="blue" >
+                    <tr>
+                     <td> Employment application </td>
+                     <td></td>
+                  </tr> 
+                  <tr>
+                     <td>first name</td>
+                     <td><input type="text" name="fname" maxlength="50"/></td>
+                  </tr>
+                  <tr>
+                     <td>last name</td>
+                     <td><input type="text" name="lname" maxlength="50"/>
+                     </td> 
+                  </tr> 
+                  <tr>
+                     <td>Position</td>
+                     <td>
+                        <select name="position">
+                            <option value="AC"> accountant</option>
+                            <option value="RT"> Receptionist</option>
+                            <option value="AT"> Administrator</option>
+                            <option value="SR"> Supervisor</option>
+
+                     </select>
+                    </td>
+                  </tr>
+                  <tr>
+                     <td>Experience level</td>
+                     <td>
+                        <select name="Experience Level">
+                            <option value="el"> entry level </option>
+                            <option value="SE"> Some experienced</option>
+                            <option value="EP"> Experienced</option>
+                           
+
+                     </select>
+                     </td>
+                  </tr> 
+                  <tr>
+                     <td> Job type </td>
+                     <td>
+                        <input type="checkbox" name="ft"/>Full-time
+                        <input type="checkbox" name="pt"/>Part-time
+                        <input type="checkbox" name="ct"/>contact
+
+
+
+                     </td>
+                  </tr> 
+                  <tr>
+                     <td>Employment Status</td>
+                     <td>
+
+                    <input type="radio" name="estatus" value="Employed"/>Employed
+                    <input type="radio" name="estatus" value="Un-Employed"/>Un-Employed
+                    <input type="radio" name="estatus" value="Student"/>Student
+              
+              
+
+                     </td>
+                     <tr>
+                        <td>Additional Comments</td>
+                        <td>
+                            <textarea name="Comments" cols="45" rows="5"></textarea>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" name="submit" value="Submit"/>
+                            <input type="reset" name="reset" value="Reset"/>
+
+                        </td>
+                     </tr>
+                  </tr> 
+                
+                  
+                    </table>
+
+             
+              
+             
+
+                </form>
+
+        </body>
+    </head>
+</html>

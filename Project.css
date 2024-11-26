@@ -1,0 +1,184 @@
+<!DOCTTYPE.html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width",initialScale="1"/>
+<title>CSS Web Page</title>
+<style>
+ body{
+    margin:0;
+    padding:0;
+    line-height: 1.5cm;
+ }
+ #header{
+    background:black;
+    font-family:Arial;
+    height:100px;
+ }
+#contentWrapper{
+    float:left;
+    width:100px;
+}
+#contentColumn{
+    margin:0 230px 0 230px;
+}
+#leftColumn{
+    float:left;
+    width:230px;
+    margin-left:-100%;
+    background:#24CBAC;
+}
+#rightColumn{
+    float:left;
+    width:230px;
+    margin-left:-230px;
+    background: #cffbff;;
+}
+.innertext{
+    margin:20px;
+    font-family:Arial;
+    color:#5E5E5E;
+}
+#footer{
+    clear:left;
+    width:100%;
+    background:black;
+    color:#FFF;
+    font-family:Arial;
+    text-align:center;
+    Padding:4px;
+}
+ul{
+    list style-type:none;
+    margin:0;
+    padding:0;
+    background: color #000;;
+}
+li{
+    float:left;
+    border-right:1px solid #bbb;
+}
+li:last-child{
+    border-right:none;
+}
+li a{
+    display:black;
+    color:white;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+}
+li a:hover:not(.active)
+{
+    background-color: #808080;
+}
+.active{
+    background-color:#0099FF;
+}
+@media(max-width:840px)
+{
+    #leftColumn{
+        margin-left:-100%;
+    }
+    #rightColumn{
+        float:none;
+        width:100%;
+        margin-left:0;
+        clear:both;
+    }
+    #contentColumn{
+        margin-right:0;
+    }
+}
+@media(max-width:600px)
+{
+    #leftColumn{
+        float:none;
+        width:100%
+        clear:both;
+        margin-left:0;
+    }
+    #contentColumn{
+        margin-left:0;
+    }
+}
+</style>
+<body>
+
+<div id="container">
+<div id="header">
+<ul style="display:inline">
+<li><a href="active" href="#home">Home</a></li>
+<li><a href="news">About</a>
+<li><a href="#contact">News</a>
+<li><a href="#About">Contact</a>
+</ul>
+</div>
+</div>
+<div id="contentWrapper">
+<div id="contentColumn">
+<div class="innertext">
+<p>I had to decide what to do with Jesus. Take him home in the backseat of my Versa, or carry him outside and place him beside the triple duty Glad bags at the end of the drive.
+
+I knew I was in trouble when I discovered the drawer with all the Jockey underwear. There must have been at least a dozen unopened packages. Three to a pack. All white and French cut. I could hear her extolling the virtues of cotton from the grave. Say what you will about my mother, she understood the value of fabric that breathes. 
+
+As it turned out, the entire dresser was filled with unopened packages of socks and underwear, with the exception of one small drawer devoted to greeting cards that dated back to the eighties. As someone who does not send greeting cards lest I burden someone I care about with the task of throwing them out, I believe it would be more efficient if we all just agreed to place five dollars in the garbage can and think good thoughts. And then there are people like my mother, who hold on to the gesture by warehousing it in a drawer they never open until it’s time for someone else to swallow it with a trash bag.
+
+Death changes the way you think about stuff. Everything you keep is a decision someone else is going to have to make. All those photographs that never made it into an album, the snapshots of birthdays capturing celebrations composed of cone hats, party streamers, and the Jos Louis with the single candle in the centre my mother called birthday cake. The music albums, records of Roy Orbison and mixed cassette tapes of Charley Pride and Keith Whitley, all rendered obsolete in a world that’s gone digital. All the shit that haunts me more than my memories. 
+
+People shouldn’t be allowed to grow old in the house they grew up in. If we all just kept moving every three to five years, like my sister and I did, no one would get caught in the layers of dead people’s unmade decisions. My father’s coveralls and pearl snap shirts were still hanging in the hall closet, and my grandmother’s embroidery patterns and cigar boxes stuffed with thread were collecting dust on the bookcase. Those stupid hobbies that are meant to keep you young will put grey hairs on someone else’s head. 
+
+I had inherited the job of cleaning out this place in preparation for the sale of the house mostly because I was the sister not on bed rest for the final trimester of her pregnancy. Sherri was going to have her first kid in a couple months, and she was racing to finish the second draft of her latest novel before her due date. She wrote romances, you know, the ones with the red spines and covers featuring the long-haired Zeus-type guy with the unbuttoned shirt, and the oddly hairless chest. Of course, Sherri wasn’t responsible for the ridiculous covers. She just wrote the stories, and she was working furiously to get this one done. I wanted to tell her to rest while she could, but I don’t think she would have listened.
+</p>
+</div>
+</div>
+</div>
+
+<div id="leftColumn">
+<div class="innertext">
+<p>I had to decide what to do with Jesus. Take him home in the backseat of my Versa, or carry him outside and place him beside the triple duty Glad bags at the end of the drive.
+
+I knew I was in trouble when I discovered the drawer with all the Jockey underwear. There must have been at least a dozen unopened packages. Three to a pack. All white and French cut. I could hear her extolling the virtues of cotton from the grave. Say what you will about my mother, she understood the value of fabric that breathes. 
+
+As it turned out, the entire dresser was filled with unopened packages of socks and underwear, with the exception of one small drawer devoted to greeting cards that dated back to the eighties. As someone who does not send greeting cards lest I burden someone I care about with the task of throwing them out, I believe it would be more efficient if we all just agreed to place five dollars in the garbage can and think good thoughts. And then there are people like my mother, who hold on to the gesture by warehousing it in a drawer they never open until it’s time for someone else to swallow it with a trash bag.
+
+Death changes the way you think about stuff. Everything you keep is a decision someone else is going to have to make. All those photographs that never made it into an album, the snapshots of birthdays capturing celebrations composed of cone hats, party streamers, and the Jos Louis with the single candle in the centre my mother called birthday cake. The music albums, records of Roy Orbison and mixed cassette tapes of Charley Pride and Keith Whitley, all rendered obsolete in a world that’s gone digital. All the shit that haunts me more than my memories. 
+
+People shouldn’t be allowed to grow old in the house they grew up in. If we all just kept moving every three to five years, like my sister and I did, no one would get caught in the layers of dead people’s unmade decisions. My father’s coveralls and pearl snap shirts were still hanging in the hall closet, and my grandmother’s embroidery patterns and cigar boxes stuffed with thread were collecting dust on the bookcase. Those stupid hobbies that are meant to keep you young will put grey hairs on someone else’s head. 
+
+I had inherited the job of cleaning out this place in preparation for the sale of the house mostly because I was the sister not on bed rest for the final trimester of her pregnancy. Sherri was going to have her first kid in a couple months, and she was racing to finish the second draft of her latest novel before her due date. She wrote romances, you know, the ones with the red spines and covers featuring the long-haired Zeus-type guy with the unbuttoned shirt, and the oddly hairless chest. Of course, Sherri wasn’t responsible for the ridiculous covers. She just wrote the stories, and she was working furiously to get this one done. I wanted to tell her to rest while she could, but I don’t think she would have listened.
+
+</p>
+</div>
+</div>
+<div id="leftColumn">
+<div class="innertext">
+<p><b>I knew I was in trouble when I discovered the drawer with all the Jockey underwear. There must have been at least a dozen unopened packages. Three to a pack. All white and French cut. I could hear her extolling the virtues of cotton from the grave. Say what you will about my mother, she understood the value of fabric that breathes. 
+
+As it turned out, the entire dresser was filled with unopened packages of socks and underwear, with the exception of one small drawer devoted to greeting cards that dated back to the eighties. As someone who does not send greeting cards lest I burden someone I care about with the task of throwing them out, I believe it would be more efficient if we all just agreed to place five dollars in the garbage can and think good thoughts. And then there are people like my mother, who hold on to the gesture by warehousing it in a drawer they never open until it’s time for someone else to swallow it with a trash bag.
+
+Death changes the way you think about stuff. Everything you keep is a decision someone else is going to have to make. All those photographs that never made it into an album, the snapshots of birthdays capturing celebrations composed of cone hats, party streamers, and the Jos Louis with the single candle in the centre my mother called birthday cake. The music albums, records of Roy Orbison and mixed cassette tapes of Charley Pride and Keith Whitley, all rendered obsolete in a world that’s gone digital. All the shit that haunts me more than my memories. 
+
+People shouldn’t be allowed to grow old in the house they grew up in. If we all just kept moving every three to five years, like my sister and I did, no one would get caught in the layers of dead people’s unmade decisions. My father’s coveralls and pearl snap shirts were still hanging in the hall closet, and my grandmother’s embroidery patterns and cigar boxes stuffed with thread were collecting dust on the bookcase. Those stupid hobbies that are meant to keep you young will put grey hairs on someone else’s head. 
+
+I had inherited the job of cleaning out this place in preparation for the sale of the house mostly because I was the sister not on bed rest for the final trimester of her pregnancy. Sherri was going to have her first kid in a couple months, and she was racing to finish the second draft of her latest novel before her due date. She wrote romances, you know, the ones with the red spines and covers featuring the long-haired Zeus-type guy with the unbuttoned shirt, and the oddly hairless chest. Of course, Sherri wasn’t responsible for the ridiculous covers. She just wrote the stories, and she was working furiously to get this one done. I wanted to tell her to rest while she could, but I don’t think she would have listened.
+</p>
+</br>
+</div>
+</div>
+<div id="rightColumn">
+<div class="innertext">
+<div id="footer">Footer</div>
+</div>
+</div>
+</body>
+</head>
+</html>
+
+
+
+
+
+
+
+
